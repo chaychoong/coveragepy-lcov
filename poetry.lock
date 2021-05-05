@@ -53,7 +53,7 @@ python2 = ["typed-ast (>=1.4.2)"]
 name = "click"
 version = "7.1.2"
 description = "Composable command line interface toolkit"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
 
@@ -200,7 +200,7 @@ python-versions = "*"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "74125a58e17612c82423384c1f34467a9b3ba535eb98e926df5824f4deaeba38"
+content-hash = "392f1ef761047fb28a388a27a7b4a0f293a54fab02df538720e8740725095fdc"
 
 [metadata.files]
 appdirs = [
