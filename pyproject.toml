@@ -6,10 +6,17 @@ authors = ["Chay Choong <chaychoong@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
+coverage = "^5.5"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
+black = "^21.5b0"
+isort = "^5.8.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3
