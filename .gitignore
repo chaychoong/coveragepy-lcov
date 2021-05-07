@@ -1,4 +1,7 @@
 __pycache__
 .DS_Store
 .venv
+.python-version
 /dist/*
+.coverage
+lcov.info
