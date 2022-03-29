@@ -12,7 +12,7 @@ coveragepy-lcov = "coveragepy_lcov.cli:main"
 
 [tool.poetry.dependencies]
 python = "^3.6.3"
-coverage = "^5.5"
+coverage = ">=5.5"
 click = ">=7.1.2"
 
 [tool.poetry.dev-dependencies]
